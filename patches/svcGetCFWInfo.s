@@ -40,7 +40,7 @@
 
 .pool
 infoStart:
-    .ascii "LUMA"   ; magic
+    .ascii "LIMA"   ; magic
     .word 0         ; version
     .word 0         ; truncated commit hash
     .word 0         ; config

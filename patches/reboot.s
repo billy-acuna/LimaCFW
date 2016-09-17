@@ -87,7 +87,7 @@ payload_maxsize equ 0x10000   ; Maximum size for the payload (maximum that CakeB
 bytes_read: .word 0
 fopen: .ascii "OPEN"
 .pool
-bin_fname:  .dcw "sdmc:/arm9loaderhax.bin"
+bin_fname:  .dcw "sdmc:/lima/boot.bin"
             .word 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 dat_fname: .dcw "sdmc:/Luma3DS.dat"
            .word 0
