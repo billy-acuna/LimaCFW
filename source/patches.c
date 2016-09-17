@@ -170,7 +170,7 @@ void implementSvcGetCFWInfo(u8 *pos, u32 *arm11SvcTable, u32 baseK11VA, u8 **fre
 {
     memcpy(*freeK11Space, svcGetCFWInfo, svcGetCFWInfo_size);
 
-    CFWInfo *info = (CFWInfo *)memsearch(*freeK11Space, "LUMA", svcGetCFWInfo_size, 4);
+    CFWInfo *info = (CFWInfo *)memsearch(*freeK11Space, "LIMA", svcGetCFWInfo_size, 4);
 
     const char *rev = REVISION;
     bool isRelease;
