@@ -175,7 +175,6 @@ void implementSvcGetCFWInfo(u8 *pos, u32 *arm11SvcTable, u32 baseK11VA, u8 **fre
     const char *rev = REVISION;
     bool isRelease;
 
-    info->commitHash = COMMIT_HASH;
     info->config = configData.config;
     info->versionMajor = (u8)(rev[1] - '0');
     info->versionMinor = (u8)(rev[3] - '0');

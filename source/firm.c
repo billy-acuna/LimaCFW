@@ -306,7 +306,7 @@ static inline u32 loadFirm(FirmwareType *firmType, FirmwareSource firmSource)
         firmVersion = 0xFFFFFFFF;
     else
     {
-        if(loadFromSd) error("An old unsupported FIRM has been detected.\nCopy a valid firmware.bin in /luma to boot");
+        if(loadFromSd) error("An old unsupported FIRM has been detected.\nCopy a valid firmware.bin in /lima to boot");
         decryptExeFs((u8 *)firm);
     }
 
